@@ -1,0 +1,12 @@
+// app global css in SCSS form
+.q-drawer{
+    .q-item{
+        opacity: 0.6;
+        &.q-router-link--exact-active{
+            opacity: 1;
+        }
+    }
+    .q-item:hover{
+        opacity: 1;
+    }
+}
